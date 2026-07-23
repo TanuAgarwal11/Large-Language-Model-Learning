@@ -1,4 +1,7 @@
+def count_words(text) : 
+   words = text.split()
+   print("words", words)
+   print("Number of tokens in text : ", len(words))
+    
 text = "I am learning LLM"
-words = text.split()
-print("words", words)
-print("Number of tokens in text : ", len(words))
+count_words(text)
