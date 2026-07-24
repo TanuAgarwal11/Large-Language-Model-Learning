@@ -1,3 +1,4 @@
+# function to count tokens
 def count_words(text) : 
    words = text.split()
    print("words", words)
@@ -5,3 +6,4 @@ def count_words(text) :
     
 text = "I am learning LLM"
 count_words(text)
+
